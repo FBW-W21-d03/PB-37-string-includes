@@ -7,3 +7,10 @@ console.log(isIncluded);
 isIncluded = BjarneStroustrup.includes("Stroustrup");
 
 console.log(isIncluded);
+
+function check (searchWord) {
+    let includes = BjarneStroustrup.includes(searchWord);
+    console.log("Suchergebnis:", includes);
+}
+check("Telefon");
+check("Stroustrup");
