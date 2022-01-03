@@ -10,3 +10,7 @@ Verwende die Methode includes(), um zu prüfen, ob der Begriff "Telefon" enthalt
 
 ## Aufgabenstellung - Teil 3
 Verwende die Methode includes(), um zu prüfen, ob der Begriff "Stroustrup" enthalten ist.
+
+## Neu
+Schreibe die Überprüfung in einer Funktion "check(searchWord)".
+Übergebe die Begriffe "Telefon" und "Stroustrup" als Argument. 

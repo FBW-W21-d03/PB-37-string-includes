@@ -28,3 +28,16 @@ console.log("aufgabe2: " , isIncluded2);
 
 let isIncluded3 = article2.includes("Stroustrup");
 console.log("aufgabe3: " , isIncluded3);
+
+isIncluded3 = article2.includes("schnibbeldibbel");
+console.log("testest: " , isIncluded3);
+
+
+console.log("-------------NEU-----------------------")
+
+function check(searchWord){
+    let included = article2.includes(searchWord);
+    console.log("Ergebnis: " , included)
+}
+check("Telefon");
+check("Stroustrup");
