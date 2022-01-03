@@ -19,4 +19,7 @@ function isIncluded (includes) {
     };
 
 };
+
 isIncluded("Telefon");
+
+isIncluded("Stroustrup");
