@@ -6,3 +6,11 @@ console.log(check);
 //3
 let check2 = zitat.includes("Stroustrup");
 console.log(check2);
+
+// function with parametrs
+function check1 (searchWord) {
+    console.log(zitat.includes(searchWord))
+   
+}
+check1 ("Telefon");
+check1 ("Stroustrup");
