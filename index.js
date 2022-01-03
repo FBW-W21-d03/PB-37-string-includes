@@ -5,6 +5,6 @@ let isZitat = article.includes("Telefon");
 
 console.log(isZitat);
 // 3)
-let Zitat = article.includes("Stroustrup");
+ isZitat = article.includes("Stroustrup");
 
-console.log(Zitat);
+console.log(isZitat);
