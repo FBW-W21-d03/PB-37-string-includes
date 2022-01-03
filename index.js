@@ -8,3 +8,20 @@ console.log(isIncluded);
 // AUFGABE TEIL 3:
 let isIncluded1 = zitat.includes("Stroustrup");
 console.log(isIncluded1)
+
+
+// NEUE AUFGABE:
+// Schreibe die Überprüfung in einer Funktion "check(searchWord)".
+// Übergebe die Begriffe "Telefon" und "Stroustrup" als Argument
+
+function check(searchWord) {
+    
+    let included2 = zitat.includes(searchWord);
+    console.log("suchergebnis:", included2);
+
+}
+
+check("Telefon");
+check("Stroustrup");
+
+
