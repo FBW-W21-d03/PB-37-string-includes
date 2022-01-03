@@ -8,3 +8,13 @@ console.log(isZitat);
  isZitat = article.includes("Stroustrup");
 
 console.log(isZitat);
+
+
+let zitat = "Ich habe mir immer gewünscht, dass mein Computer so leicht zu bedienen ist wie mein Telefon; mein Wunsch ging in Erfüllung: mein Telefon kann ich jetzt auch nicht mehr bedienen."
+
+function check(searchWord){
+    let included = zitat.includes(searchWord);
+    console.log("Suchergebnis:", included);
+}
+check("Telefon");
+check("Stroustrup");
