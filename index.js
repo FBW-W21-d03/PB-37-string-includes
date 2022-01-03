@@ -5,5 +5,5 @@ let isIncluded = Bjarne.includes("Telefon");
 console.log(isIncluded);
 
 
-let isIncludedStroustrup = Bjarne.includes("stroustrup");
+let isIncludedStroustrup = Bjarne.includes("Stroustrup");
 console.log(isIncludedStroustrup);
